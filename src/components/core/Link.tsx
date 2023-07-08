@@ -12,13 +12,11 @@ export type LinkParams = {
     target?: string
 } & LinkProps;
 
-export default function Link({ children, className, target, ...restProps}: LinkParams) {
+export default function Link({ children, className, ...restProps}: LinkParams) {
     const [rootClassName] = getClassName({ className, rootClass: 'link', styles});
 
     return (
-        <LinkNextJs {...restProps}>
-            <a className={rootClassName} target={target}>{children}</a>
-        </LinkNextJs>
+        <LinkNextJs className={className} {...restProps}>{children}</LinkNextJs>
     );
 }
 

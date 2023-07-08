@@ -5,7 +5,6 @@ import getClassName from 'tools/getClassName';
 
 // core
 import Link from 'components/core/Link';
-import Button from 'components/core/Button';
 
 // layout
 import HeaderNav from './HeaderNav';
