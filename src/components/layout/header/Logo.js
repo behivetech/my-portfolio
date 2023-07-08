@@ -9,11 +9,12 @@ import PropTypes from 'prop-types';
 export default function Logo({className}) {
     return (
         <svg
+            className={className}
             version="1.0"
             id="Layer_1"
             xmlns="http://www.w3.org/2000/svg"
-            x="0px"
-            y="0px"
+            x="0"
+            y="0"
             viewBox="0 0 232 34.6"
             enableBackground="new 0 0 232 34.6"
             xmlSpace="preserve"

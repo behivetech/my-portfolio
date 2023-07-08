@@ -38,6 +38,7 @@ export default function IndexPage() {
     return (
         <Layout className="index-page">
             <SEO title="Home" />
+<<<<<<< Updated upstream:src/pages/index.js
             <div className="index-page__container">
                 <Image
                     className="index-page__image"
@@ -46,21 +47,30 @@ export default function IndexPage() {
                 />
                 <div className="index-page__content">
                     <Headline className="index-page__heading" level={2}>
+=======
+            <div className={getChildClass('container')}>
+                <div className={getChildClass('image-container')}>
+                    <Image
+                        width={2800}
+                        height={1373}
+                        layout="responsive"
+                        alt="Event Image"
+                        src="/images/HomeMain.png"
+                        priority
+                />
+                </div>
+                <div className={getChildClass('content')}>
+                    <Headline className={getChildClass('heading')} level={2}>
+>>>>>>> Stashed changes:src/pages/index.tsx
                         Welcome to BEhive Tech
                     </Headline>
                     <p>
-                        Expert in the design, development and global introduction of
-                        advanced technologies to meet business, financial, competitive,
-                        and customer demands. Experience combining strong development with
-                        outstanding performance for leading complex technology
-                        organizations. Diverse understanding of web-based applications
-                        from concept, business case, and feasibility analysis through
-                        development, usability testing, deployment and maintenance. As a
-                        primarily front-end React developer, my focus and expertise
-                        revolves around building efficient, reusable components and
-                        performant, scalable apps to align with the fast paced world of
-                        development. Much of my recent experience and passion is
-                        architecting new apps or rebuilding apps from an older technology.
+                        Expert in the design, development and global introduction of advanced technologies to meet business, financial, competitive, and customer demands.  Experience combining strong development with outstanding performance for leading complex technology organizations.  Diverse understanding of web-based applications from concept, business case, and feasibility analysis through development, usability testing, deployment and maintenance using a modern web stack.
+                        Direct work experience in...
+                        - architecting several single page and server side apps from the ground up
+                        - leading and mentoring junior to mid level developers
+                        - working with extremely high traffic websites such as Southwest Airlines
+                        - principal and senior level positions with smaller startups all the way up to large corporations
                     </p>
                     <p>
                         <Button raised onClick={handleLearnClick}>

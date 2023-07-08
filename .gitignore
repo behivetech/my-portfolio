@@ -1,6 +1,7 @@
 # Credentials
 credentials/
 
+.next/
 # Logs
 logs
 *.log

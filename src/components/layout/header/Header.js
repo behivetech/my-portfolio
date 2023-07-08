@@ -6,7 +6,10 @@ import getClassName from 'tools/getClassName';
 
 // core
 import Link from 'components/core/Link';
+<<<<<<< Updated upstream:src/components/layout/header/Header.js
 import IconButton from 'components/core/IconButton';
+=======
+>>>>>>> Stashed changes:src/components/layout/header/Header.tsx
 
 // layout
 import HeaderNav from './HeaderNav';
